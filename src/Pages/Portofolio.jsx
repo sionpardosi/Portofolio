@@ -101,18 +101,31 @@ function a11yProps(index) {
 }
 
 const techStacks = [
+  { icon: "PHP.svg", language: "PHP" },
+  { icon: "Laravel.svg", language: "Laravel" },
+  { icon: "Jupyter.svg", language: "Jupyter" },
+  { icon: "Python.svg", language: "Python" },
+  { icon: "GO.svg", language: "GO" },
+  { icon: "Swift.svg", language: "Swift" },
+  { icon: "Java.svg", language: "Java" },
+  { icon: "Postman.svg", language: "Postman (API)" },
   { icon: "html.svg", language: "HTML" },
-  { icon: "css.svg", language: "CSS" },
   { icon: "javascript.svg", language: "JavaScript" },
+  { icon: "tableau.svg", language: "Tableau" },
+  { icon: "mysql.svg", language: "MySql" },
+  { icon: "css.svg", language: "CSS" },
   { icon: "tailwind.svg", language: "Tailwind CSS" },
   { icon: "reactjs.svg", language: "ReactJS" },
   { icon: "vite.svg", language: "Vite" },
   { icon: "nodejs.svg", language: "Node JS" },
   { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "firebase.svg", language: "Firebase" },
+  { icon: "trello.svg", language: "Trello" },
+  { icon: "figma.svg", language: "Figma" },
   { icon: "MUI.svg", language: "Material UI" },
   { icon: "vercel.svg", language: "Vercel" },
   { icon: "SweetAlert.svg", language: "SweetAlert2" },
+  { icon: "Canva.svg", language: "Canva" },
 ];
 
 export default function FullWidthTabs() {
